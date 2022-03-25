@@ -1,0 +1,439 @@
+{
+    "data": {
+        "id": "845b7324-9b19-4d8b-ad12-9fc93793946b",
+        "type": "loan_application",
+        "attributes": {
+            "status": "submitted",
+            "sales_state": "active",
+            "buy_or_refinance": null,
+            "found_property": "ready_to_buy",
+            "applying_alone": "with_others",
+            "max_down_payment": "110445.0",
+            "financing_wish": null,
+            "pay_off_early": null,
+            "combined_household_income_before_tax": "0.0",
+            "looking_for_preapproval": false,
+            "advisor_verification_call_scheduled": false,
+            "external_loan_amount": "0.0",
+            "already_paid_costs": "0.0",
+            "external_id": "https://app.homeday.de/crm/buyer_requests/XXXXXXXX",
+            "borrowing_need": 651954,
+            "user_notes": null,
+            "actual_mortgage_offers_count": 0,
+            "desired_term_length": 10,
+            "desired_monthly_payment": "0.0",
+            "finance_type": "new_from_developer",
+            "closed_loan_volume": null,
+            "closed_commission": null,
+            "closed_lender": null,
+            "platform_details": [
+                {
+                    "url": "https://www.europace2.de/vorgang/oeffne/XXXXXX",
+                    "name": "Europace OAuth2",
+                    "type": "EuropaceOauth2Platform",
+                    "case_id": "HV79HW",
+                    "created_at": "2022-02-10T08:33:24.721+01:00"
+                },
+                {
+                    "name": "eHyp",
+                    "type": "EhypPlatform",
+                    "case_id": "214E4904851",
+                    "message": null,
+                    "auto_sync": true,
+                    "created_at": "2022-02-10T08:33:13.714+01:00"
+                }
+            ],
+            "closed_at": null,
+            "refinance_amount_needed": "0.0",
+            "capital_amount_needed": "0.0",
+            "imported": null,
+            "desired_unscheduled_payment": "32350.0",
+            "desired_runtime": null,
+            "desired_principal_rate_change_amount": 0,
+            "created_at": "2022-01-27T12:37:37.376+01:00",
+            "updated_at": "2022-02-10T08:34:30.772+01:00",
+            "tags": [
+                "  Termin Beratung",
+                "  Angebot",
+                "   Besichtigt"
+            ]
+        },
+        "relationships": {
+            "advisor": {
+                "data": {
+                    "id": "a3f0aa4f-deba-40b6-a787-41c156dd9bef",
+                    "type": "advisor"
+                }
+            },
+            "contact": {
+                "data": {
+                    "id": "49de4c1a-c6a2-4742-885c-cf0e56964ba7",
+                    "type": "contact"
+                }
+            },
+            "user": {
+                "data": {
+                    "id": "16c33eee-3f26-40ee-b396-ab61433126ed",
+                    "type": "user"
+                }
+            },
+            "lead": {
+                "data": {
+                    "id": "8fc02d70-c633-4ef5-99a6-68f526f66fbe",
+                    "type": "lead"
+                }
+            },
+            "deal": {
+                "data": {
+                    "id": "92cde019-02ab-4751-a0a6-ac139d2fa69f",
+                    "type": "deal"
+                }
+            },
+            "loan_application_reason": {
+                "data": null
+            },
+            "properties": {
+                "data": [
+                    {
+                        "id": "bc5354ac-bbda-4d5a-bd57-a11ca589b220",
+                        "type": "property"
+                    }
+                ]
+            },
+            "applicants": {
+                "data": [
+                    {
+                        "id": "1c8ceff0-24ab-403c-9567-927e7368bdf1",
+                        "type": "applicant"
+                    },
+                    {
+                        "id": "9c025fa8-d070-4871-acc5-28c4fd8e7b42",
+                        "type": "applicant"
+                    }
+                ]
+            }
+        }
+    },
+    "included": [
+        {
+            "id": "1c8ceff0-24ab-403c-9567-927e7368bdf1",
+            "type": "applicant",
+            "attributes": {
+                "first_name": "Foo",
+                "last_name": "Bar",
+                "middle_name": null,
+                "phone_number": "0123456789",
+                "employment_status": "managing_partner",
+                "monthly_net_income": "7231.0",
+                "nationality": "Germany",
+                "relationship_status": "married",
+                "number_of_dependants": "4.0",
+                "number_of_dependants_under_18": null,
+                "email_address": "foo.bar@email.com",
+                "rental_expenses_monthly_cost": "0.0",
+                "rental_expenses_eliminated": false,
+                "life_insurance_monthly_cost": "0.0",
+                "private_health_insurance_monthly_cost": "887.68",
+                "pension_insurance_monthly_cost": null,
+                "disability_insurance_monthly_cost": "80.42",
+                "other_monthly_expenses": "0.0",
+                "bank_savings_amount": "91000.0",
+                "asset_securities_amount": "0.0",
+                "asset_life_insurance_amount": "0.0",
+                "german_tax_id": null,
+                "schufa_score": null,
+                "gender": "male",
+                "birth_city": "Berlin",
+                "academic_title": null,
+                "negative_schufa": false,
+                "marriage_agreement": "joint_ownership",
+                "maintenance_obligations": "0.0",
+                "saving_plans_expenses": null,
+                "building_society_loan_expenses": null,
+                "retirement_start_date": "2051-06-01T00:00:00.000+02:00",
+                "public_pension_amount": "0.0",
+                "private_pension_amount": "0.0",
+                "alternative_phone_number": null
+            },
+            "relationships": {
+                "employers": {
+                    "data": [
+                        {
+                            "id": "014e91df-a26c-4401-8bdc-5d7312d806dd",
+                            "type": "employer"
+                        }
+                    ]
+                },
+                "liabilities": {
+                    "data": [
+                        {
+                            "id": "2751f1f3-719c-4a67-a10e-26181a8f926e",
+                            "type": "liability"
+                        }
+                    ]
+                },
+                "asset_properties": {
+                    "data": [
+                        {
+                            "id": "c9aaa604-5c19-43f0-a5f6-96e665852091",
+                            "type": "asset_property"
+                        },
+                        {
+                            "id": "7aeddfcf-ed1b-48cd-b996-92a572d9edb5",
+                            "type": "asset_property"
+                        }
+                    ]
+                },
+                "building_society_loans_assets": {
+                    "data": [
+                        {
+                            "id": "57a65110-3848-4e79-b0e4-668f4348d70b",
+                            "type": "building_society_loans_asset"
+                        }
+                    ]
+                },
+                "income_sources": {
+                    "data": [
+                        {
+                            "id": "d89ad482-d05e-4000-8f00-67c4ada84f61",
+                            "type": "income_source"
+                        }
+                    ]
+                },
+                "children": {
+                    "data": [
+                        {
+                            "id": "11d8441f-5187-4fa4-9aff-f79b876b0c28",
+                            "type": "child"
+                        },
+                        {
+                            "id": "6b56f0b4-9168-40b3-8e29-dc86010545b8",
+                            "type": "child"
+                        }
+                    ]
+                },
+                "german_address": {
+                    "data": {
+                        "id": "f389304a-8bf7-4a5a-8185-af6d32905038",
+                        "type": "german_address"
+                    }
+                },
+                "applicant_addresses": {
+                    "data": [
+                        {
+                            "id": "18c04a42-4805-43f8-a727-56a723dacb3f",
+                            "type": "applicant_address"
+                        },
+                        {
+                            "id": "8b86f190-46fb-423b-9c82-6a7e5ef959e7",
+                            "type": "applicant_address"
+                        },
+                        {
+                            "id": "58b28e31-ed82-4078-aa67-9a563a84139c",
+                            "type": "applicant_address"
+                        },
+                        {
+                            "id": "ca6c772d-8f23-4e11-931c-b8ebc0327d31",
+                            "type": "applicant_address"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "9c025fa8-d070-4871-acc5-28c4fd8e7b42",
+            "type": "applicant",
+            "attributes": {
+                "first_name": "Hoo",
+                "last_name": "Bar",
+                "middle_name": null,
+                "phone_number": "0223456789",
+                "employment_status": "employed_unlimited",
+                "monthly_net_income": "0.0",
+                "nationality": "Germany",
+                "relationship_status": "married",
+                "number_of_dependants": "4.0",
+                "number_of_dependants_under_18": null,
+                "email_address": "hoo.bar@email.com",
+                "rental_expenses_monthly_cost": "0.0",
+                "rental_expenses_eliminated": false,
+                "life_insurance_monthly_cost": "0.0",
+                "private_health_insurance_monthly_cost": "0.0",
+                "pension_insurance_monthly_cost": null,
+                "disability_insurance_monthly_cost": "0.0",
+                "other_monthly_expenses": "0.0",
+                "bank_savings_amount": null,
+                "asset_securities_amount": null,
+                "asset_life_insurance_amount": null,
+                "german_tax_id": null,
+                "schufa_score": null,
+                "gender": "female",
+                "birth_city": "Wien",
+                "academic_title": null,
+                "negative_schufa": false,
+                "marriage_agreement": "joint_ownership",
+                "maintenance_obligations": "0.0",
+                "saving_plans_expenses": null,
+                "building_society_loan_expenses": null,
+                "retirement_start_date": "2058-10-01T00:00:00.000+02:00",
+                "public_pension_amount": "0.0",
+                "private_pension_amount": "0.0",
+                "alternative_phone_number": null
+            },
+            "relationships": {
+                "employers": {
+                    "data": [
+                        {
+                            "id": "c17acd23-02fa-4235-a12d-8dd8c5e4a03a",
+                            "type": "employer"
+                        }
+                    ]
+                },
+                "liabilities": {
+                    "data": []
+                },
+                "asset_properties": {
+                    "data": []
+                },
+                "building_society_loans_assets": {
+                    "data": []
+                },
+                "income_sources": {
+                    "data": [
+                        {
+                            "id": "691ff33e-1e41-4c6f-bfee-dcc9f2432ad1",
+                            "type": "income_source"
+                        },
+                        {
+                            "id": "c8a736a6-dba0-4d1b-a26a-c5a50edc9d2a",
+                            "type": "income_source"
+                        }
+                    ]
+                },
+                "children": {
+                    "data": [
+                        {
+                            "id": "5acc9771-8f4f-43b4-9454-515fcc96cabf",
+                            "type": "child"
+                        },
+                        {
+                            "id": "b1841628-0d9a-400b-8c89-c5291efa333f",
+                            "type": "child"
+                        }
+                    ]
+                },
+                "german_address": {
+                    "data": {
+                        "id": "81bb02e7-ee16-4cc0-9e1a-6f1e3a032f56",
+                        "type": "german_address"
+                    }
+                },
+                "applicant_addresses": {
+                    "data": [
+                        {
+                            "id": "a69ebfe0-09df-484f-8cfb-1c13775b2d3d",
+                            "type": "applicant_address"
+                        },
+                        {
+                            "id": "c398d88b-fc21-4984-99ee-77e843fd6e4d",
+                            "type": "applicant_address"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "49de4c1a-c6a2-4742-885c-cf0e56964ba7",
+            "type": "contact",
+            "attributes": {
+                "name": "Dario Geffen 1",
+                "type": "Contacts::BusinessPartnerContact",
+                "company_name": "Booking Slider"
+            }
+        },
+        {
+            "id": "92cde019-02ab-4751-a0a6-ac139d2fa69f",
+            "type": "deal",
+            "attributes": {
+                "closed_commission": null,
+                "closed_loan_volume": null,
+                "closed_at": null,
+                "clearing_channel_name": null,
+                "clearing_channel_identifier": null
+            },
+            "relationships": {
+                "products": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "bc5354ac-bbda-4d5a-bd57-a11ca589b220",
+            "type": "property",
+            "attributes": {
+                "rental_space_sq_meters": "61.13",
+                "construction_method": "massive",
+                "energy_efficiency_class": null,
+                "floor": "third",
+                "move_in_ready_date": null,
+                "renovation_costs": null,
+                "inventory_costs": null,
+                "gross_monthly_rent": null,
+                "number_of_apartments_in_the_building": 34,
+                "real_estate_tax_rate_override": null,
+                "notary_rate_override": null,
+                "expected_monthly_rent": "1200.0",
+                "land_purchase_price": null,
+                "original_purchase_price": "0.0",
+                "production_costs": null,
+                "listed_price": "699000.0",
+                "real_estate_fee_percentage": null,
+                "final_sale_price": null,
+                "property_type": "apartment",
+                "property_use": "rental",
+                "year_of_construction": 2022,
+                "year_of_modernization": null,
+                "living_size_sq_meters": "61.13",
+                "total_size_sq_meters": null,
+                "number_of_rooms": null,
+                "number_of_parking_spaces": 0,
+                "real_estate_agent_email": null,
+                "valuation": {},
+                "leasehold": false,
+                "contribution_amount_for_own_construction_or_modernization": "0.0",
+                "current_mortgage_amount": "0.0",
+                "current_monthly_mortgage_payment": "0.0",
+                "current_mortgage_termination_date": null,
+                "land_value": "0.0",
+                "own_land": true,
+                "number_of_floors": 0,
+                "purchase_date": null,
+                "current_value": null,
+                "other_costs": null,
+                "other_costs_comment": null,
+                "building_side_costs": null,
+                "outdoor_facilities_costs": null,
+                "development_costs": null,
+                "basement": "basement",
+                "attic": null,
+                "zipcode": "80687"
+            },
+            "relationships": {
+                "existing_mortgages": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "16c33eee-3f26-40ee-b396-ab61433126ed",
+            "type": "user",
+            "attributes": {
+                "utm_campaign": null,
+                "utm_medium": null,
+                "utm_source": null,
+                "utm_term": null,
+                "utm_content": null
+            }
+        }
+    ]
+}

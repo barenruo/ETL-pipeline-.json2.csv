@@ -1,0 +1,280 @@
+{
+    "data": {
+        "id": "c1fb85c6-1803-4a83-8de8-6fec7b324a04",
+        "type": "loan_application",
+        "attributes": {
+            "status": "application_started",
+            "sales_state": "on_hold",
+            "buy_or_refinance": null,
+            "found_property": "ready_to_buy",
+            "applying_alone": "on_own",
+            "max_down_payment": "80000.0",
+            "financing_wish": null,
+            "pay_off_early": null,
+            "combined_household_income_before_tax": "0.0",
+            "looking_for_preapproval": false,
+            "advisor_verification_call_scheduled": false,
+            "external_loan_amount": "0.0",
+            "already_paid_costs": "0.0",
+            "external_id": "https://app.homeday.de/crm/buyer_requests/YYYYYYYY",
+            "borrowing_need": 287233,
+            "user_notes": null,
+            "actual_mortgage_offers_count": 0,
+            "desired_term_length": null,
+            "desired_monthly_payment": null,
+            "finance_type": "buy_existing",
+            "closed_loan_volume": null,
+            "closed_commission": null,
+            "closed_lender": null,
+            "platform_details": [],
+            "closed_at": null,
+            "refinance_amount_needed": null,
+            "capital_amount_needed": null,
+            "imported": null,
+            "desired_unscheduled_payment": null,
+            "desired_runtime": null,
+            "desired_principal_rate_change_amount": null,
+            "created_at": "2021-12-29T23:43:26.738+01:00",
+            "updated_at": "2022-01-26T12:44:16.408+01:00",
+            "tags": [
+                "   Besichtigung zu vereinbaren"
+            ]
+        },
+        "relationships": {
+            "advisor": {
+                "data": {
+                    "id": "6849baa7-7847-4f34-9b23-9a7ac14ac952",
+                    "type": "advisor"
+                }
+            },
+            "contact": {
+                "data": {
+                    "id": "bf46264b-147f-4880-9806-3fce6b7422c9",
+                    "type": "contact"
+                }
+            },
+            "user": {
+                "data": {
+                    "id": "fb5cd31a-998a-48e1-992d-dddc632bf97d",
+                    "type": "user"
+                }
+            },
+            "lead": {
+                "data": {
+                    "id": "41d4a2c9-4ac9-4072-8ac2-b046ed962419",
+                    "type": "lead"
+                }
+            },
+            "deal": {
+                "data": {
+                    "id": "053609f9-a2d9-48d1-b764-cb50c9b0c1ee",
+                    "type": "deal"
+                }
+            },
+            "loan_application_reason": {
+                "data": {
+                    "id": "f42aff38-9432-4f34-aa6d-28dfeb788e6c",
+                    "type": "loan_application_reason"
+                }
+            },
+            "properties": {
+                "data": [
+                    {
+                        "id": "3c4469e1-af62-4af4-ba1f-ffe47a401702",
+                        "type": "property"
+                    }
+                ]
+            },
+            "applicants": {
+                "data": [
+                    {
+                        "id": "e75b8775-b59b-4cd8-9e97-081c645eb031",
+                        "type": "applicant"
+                    }
+                ]
+            }
+        }
+    },
+    "included": [
+        {
+            "id": "e75b8775-b59b-4cd8-9e97-081c645eb031",
+            "type": "applicant",
+            "attributes": {
+                "first_name": "John ",
+                "last_name": "Doe",
+                "middle_name": null,
+                "phone_number": "0323456789",
+                "employment_status": "employed_unlimited",
+                "monthly_net_income": "6000.0",
+                "nationality": "Germany",
+                "relationship_status": "married",
+                "number_of_dependants": null,
+                "number_of_dependants_under_18": null,
+                "email_address": "john.doe@email.com",
+                "rental_expenses_monthly_cost": null,
+                "rental_expenses_eliminated": null,
+                "life_insurance_monthly_cost": null,
+                "private_health_insurance_monthly_cost": null,
+                "pension_insurance_monthly_cost": null,
+                "disability_insurance_monthly_cost": null,
+                "other_monthly_expenses": null,
+                "bank_savings_amount": "80000.0",
+                "asset_securities_amount": null,
+                "asset_life_insurance_amount": null,
+                "german_tax_id": null,
+                "schufa_score": null,
+                "gender": "male",
+                "birth_city": "München, Deutschland",
+                "academic_title": null,
+                "negative_schufa": false,
+                "marriage_agreement": null,
+                "maintenance_obligations": null,
+                "saving_plans_expenses": null,
+                "building_society_loan_expenses": null,
+                "retirement_start_date": null,
+                "public_pension_amount": null,
+                "private_pension_amount": null,
+                "alternative_phone_number": ""
+            },
+            "relationships": {
+                "employers": {
+                    "data": [
+                        {
+                            "id": "0871887e-6264-44a4-884e-2ae20ad96e30",
+                            "type": "employer"
+                        }
+                    ]
+                },
+                "liabilities": {
+                    "data": []
+                },
+                "asset_properties": {
+                    "data": []
+                },
+                "building_society_loans_assets": {
+                    "data": []
+                },
+                "income_sources": {
+                    "data": []
+                },
+                "children": {
+                    "data": []
+                },
+                "german_address": {
+                    "data": {
+                        "id": "4af31f31-ee7b-40f7-8a2c-fc315fb1d54e",
+                        "type": "german_address"
+                    }
+                },
+                "applicant_addresses": {
+                    "data": [
+                        {
+                            "id": "c27c27c6-2d4c-42cd-acc7-9a72538ff882",
+                            "type": "applicant_address"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "bf46264b-147f-4880-9806-3fce6b7422c9",
+            "type": "contact",
+            "attributes": {
+                "name": "Mail: Qualification Funnel",
+                "type": "Contacts::BusinessPartnerContact",
+                "company_name": null
+            }
+        },
+        {
+            "id": "053609f9-a2d9-48d1-b764-cb50c9b0c1ee",
+            "type": "deal",
+            "attributes": {
+                "closed_commission": null,
+                "closed_loan_volume": null,
+                "closed_at": null,
+                "clearing_channel_name": null,
+                "clearing_channel_identifier": null
+            },
+            "relationships": {
+                "products": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "f42aff38-9432-4f34-aa6d-28dfeb788e6c",
+            "type": "loan_application_reason",
+            "attributes": {
+                "reason": "looking_for_property"
+            }
+        },
+        {
+            "id": "3c4469e1-af62-4af4-ba1f-ffe47a401702",
+            "type": "property",
+            "attributes": {
+                "rental_space_sq_meters": null,
+                "construction_method": null,
+                "energy_efficiency_class": null,
+                "floor": null,
+                "move_in_ready_date": null,
+                "renovation_costs": null,
+                "inventory_costs": null,
+                "gross_monthly_rent": null,
+                "number_of_apartments_in_the_building": null,
+                "real_estate_tax_rate_override": null,
+                "notary_rate_override": null,
+                "expected_monthly_rent": null,
+                "land_purchase_price": null,
+                "original_purchase_price": "0.0",
+                "production_costs": null,
+                "listed_price": "334000.0",
+                "real_estate_fee_percentage": "1.95",
+                "final_sale_price": null,
+                "property_type": "apartment",
+                "property_use": "primary_residence",
+                "year_of_construction": null,
+                "year_of_modernization": null,
+                "living_size_sq_meters": null,
+                "total_size_sq_meters": null,
+                "number_of_rooms": null,
+                "number_of_parking_spaces": 0,
+                "real_estate_agent_email": null,
+                "valuation": {},
+                "leasehold": false,
+                "contribution_amount_for_own_construction_or_modernization": "0.0",
+                "current_mortgage_amount": "0.0",
+                "current_monthly_mortgage_payment": "0.0",
+                "current_mortgage_termination_date": null,
+                "land_value": "0.0",
+                "own_land": null,
+                "number_of_floors": null,
+                "purchase_date": null,
+                "current_value": null,
+                "other_costs": null,
+                "other_costs_comment": null,
+                "building_side_costs": null,
+                "outdoor_facilities_costs": null,
+                "development_costs": null,
+                "basement": null,
+                "attic": null,
+                "zipcode": "14167"
+            },
+            "relationships": {
+                "existing_mortgages": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "fb5cd31a-998a-48e1-992d-dddc632bf97d",
+            "type": "user",
+            "attributes": {
+                "utm_campaign": "financing_unclear",
+                "utm_medium": null,
+                "utm_source": null,
+                "utm_term": null,
+                "utm_content": "1CINX85P"
+            }
+        }
+    ]
+}
